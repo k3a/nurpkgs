@@ -46,4 +46,4 @@ sed -E \
     -i "$nix_file"
 
 echo "Ensure the updated version works and commit:"
-echo git commit -a -m "$attr: $currentVersion -> $latestVersion"
+echo "git commit -a -m \"$attr: $currentVersion -> $latestVersion\""
