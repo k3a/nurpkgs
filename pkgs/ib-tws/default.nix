@@ -27,8 +27,8 @@ in
 
 stdenv.mkDerivation rec {
   pname = "ib-tws";
-  version = "10.16.1a";
-  etagHash = "a6d48cb1069a94e2704c6fba25187cc1";
+  version = "10.16.1n";
+  etagHash = "b6d48cb1069a94e2704c6fba25187cc1";
 
   src = fetchurl {
     url = "https://download2.interactivebrokers.com/installers/tws/latest-standalone/tws-latest-standalone-linux-x64.sh";
